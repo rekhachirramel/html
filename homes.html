@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Home Page</title>
+
+    <style>
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+        }
+
+        body{
+            font-family:Arial, sans-serif;
+            background:#f4f4f4;
+            text-align:center;
+        }
+
+        header{
+            background:#007BFF;
+            color:white;
+            padding:20px;
+        }
+
+        nav{
+            margin-top:10px;
+        }
+
+        nav a{
+            color:white;
+            text-decoration:none;
+            margin:0 15px;
+            font-weight:bold;
+        }
+
+        .container{
+            padding:80px 20px;
+        }
+
+        h2{
+            color:#333;
+            margin-bottom:20px;
+        }
+
+        p{
+            color:#555;
+            font-size:18px;
+            margin-bottom:25px;
+        }
+
+        button{
+            background:#007BFF;
+            color:white;
+            border:none;
+            padding:12px 25px;
+            border-radius:5px;
+            cursor:pointer;
+            font-size:16px;
+        }
+
+        button:hover{
+            background:#0056b3;
+        }
+
+        footer{
+            background:#222;
+            color:white;
+            padding:15px;
+            margin-top:80px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>My Website</h1>
+
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">About</a>
+            <a href="#">Services</a>
+            <a href="#">Contact</a>
+        </nav>
+    </header>
+
+    <div class="container">
+        <h2>Welcome!</h2>
+
+        <p>This is my first HTML home page uploaded to GitHub.</p>
+
+        <button onclick="showMessage()">Click Me</button>
+    </div>
+
+    <footer>
+        <p>&copy; 2026 My Website. All Rights Reserved.</p>
+    </footer>
+
+    <script>
+        function showMessage() {
+            alert("Welcome to my website!");
+        }
+    </script>
+
+</body>
+</html>
